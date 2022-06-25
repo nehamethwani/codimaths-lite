@@ -1,0 +1,56 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+.service{
+    width: 100%;
+    padding: 100px 0px;
+}
+.service-txt{
+    text-align: right;
+    
+}
+.service button{
+    color: whitesmoke;
+    background: #195cc5;
+    padding: 15px 30px;
+    margin: 15px 0px;
+    font-size: 18px;
+    animation: animate linear 2s infinite;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: transparent;
+}
+@keyframes animate {
+    50%{
+        opacity: 0.5;
+    }
+}
+
+.service button:hover{
+    color: black;
+    background:rgb(198 225 243 / 55%);
+    border-color: transparent;
+}
+.service-txt h1{
+    padding: 10px 0px;
+    color: #195cc5;
+}
+.service-txt p{
+    color: gray;
+    padding: 10px 0px;
+}
+.service-img{
+    height: 350px;
+    width: 550px;
+}
+#txt-hidden{
+    display: none;
+    width: 1170px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px rgb(232, 230, 230);
+    color: gray;
+    padding: 20px 20px;
+    text-align: center;
+}
